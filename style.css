@@ -131,6 +131,74 @@
     text-align: left;
   }
 
+  .blog-post-video-div {
+    margin: 60px 0;
+  }
+
+.blog-post-video-div iframe {
+    width: 700px;
+    height: 400px;
+  }
+
+.fig-div {
+  position: relative;
+  margin: 50px 0;
+}
+
+.fig-telescope {
+  margin-left: -100px;
+  margin-top: 40px 0;
+}
+.bicep-telescope-image {
+    width: 110%;
+  }
+
+  article h3 {
+    margin: 30px 0;
+  }
+
+  /* Bottom part of blog post */
+
+  .blog-post-bottom {
+    font-size: 10px;
+    margin: 20px 0;
+  }
+
+  .blog-post-bottom p {
+    font-size: 12px;
+    margin: 0;
+    display: inline;
+  }
+
+  .blog-post-bottom span {
+    text-decoration: underline;
+  }
+
+ .blog-post-foot {
+   margin: 20px 0;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .blog-post-foot i {
+    padding-left: 10px;
+    font-size: 25px;
+ }
+
+ .blog-post-foot button {
+  padding: 10px 100px;
+  background-color: #567b95;
+  color: white;
+  margin-top: 5px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  font-weight: bold;
+ }
+
+
+
+  
+
   /* Editor's pick */
 
   aside {
