@@ -66,6 +66,7 @@
   }
 
   /* Post-image */
+
   .post-image {
     width: 1000px;
     align-self: center;
@@ -84,4 +85,43 @@
 
   figcaption {
       width: 720px;
+  }
+
+
+  /* POST TEXT */
+
+
+  article {
+    width: 700px;
+    align-self: center;
+    margin-top: 50px;
+  }
+
+  article h4 {
+    margin-bottom: 25px;
+  }
+
+  .blog-post-head {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .blog-post-head span {
+    font-size: 14px;
+  }
+
+  .blog-post-head i {
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .blog-text {
+    margin-top: 30px;
+  }
+
+  .blog-text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: left;
   }
