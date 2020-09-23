@@ -40,8 +40,6 @@ main {
   color: #327aba;
 }
 
-
-
 .blog-buttons {
   background-color: #567b95;
   color: white;
@@ -194,6 +192,10 @@ article h3 {
 .blog-post-foot-icons i {
   padding-left: 10px;
   font-size: 25px;
+}
+
+.blog-post-bottom span {
+  text-decoration: underline;
 }
 
 .blog-post-foot-icons {
@@ -471,10 +473,6 @@ article h4:hover {
 .blog-post-head i:hover {
   color: #8b888b;
   cursor: pointer;
-}
-
-.blog-post-bottom span {
-  text-decoration: underline;
 }
 
 .blog-post-bottom span:hover {
