@@ -113,6 +113,7 @@
 
   .blog-post-head span {
     font-size: 14px;
+
   }
 
   .blog-post-head i {
@@ -183,6 +184,11 @@
  .blog-post-foot i {
     padding-left: 10px;
     font-size: 25px;
+    
+ }
+
+ .blog-post-foot-icons {
+   float: right;
  }
 
  .blog-post-foot button {
@@ -193,6 +199,7 @@
   border: 1px solid blue;
   border-radius: 4px;
   font-weight: bold;
+  float: left;
  }
 
 
@@ -205,7 +212,7 @@
       position: absolute;
       width: 250px;
       right: 40px;
-      margin-left: 50px;
+      margin-right: 70px;
   }
 
   aside h4 {
@@ -219,10 +226,15 @@
   }
 
   .side-editor p {
-      font-size: 14px;
+      font-size: 17px;
       width: 150px;
       align-self: center;
       padding-left: 10px;
+      
+  }
+
+  .side-editor {
+    margin-bottom: 20px;
   }
 
   /* Middle image in the article */
@@ -283,11 +295,11 @@
 
 section {
     margin-left: 40px;
-   
+    width: 70%;
     padding-top: 30px;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;   
+    align-items: center; 
 }
 
 .more-space-title {
@@ -301,11 +313,11 @@ section {
 
 
 .more-articles-grid {
-    width: 960px;
+    width: 880px;
     display: grid;
-    grid-template-columns: 320px 320px 320px;
+    grid-template-columns: 280px 280px 280px;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 15px;
    
     border-bottom: 0.5px solid black;
     padding-bottom: 30px;
@@ -314,7 +326,7 @@ section {
 }
 
 .more-article-single {
-    width: 320px;
+    width: 280px;
 }
 
 .more-article-single figure img {
@@ -322,12 +334,19 @@ section {
     height: 150px;
 }
 
+.more-article-single figure figcaption {
+  text-align: right;
+  width: 280px;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
 .more-articles-grid-bottom {
-  width: 960px;
+  width: 880px;
   display: grid;
-  grid-template-columns: 320px 320px 320px;
+  grid-template-columns: 280px 280px 280px;
   grid-template-rows: 1fr;
-  grid-gap: 30px;
+  grid-gap: 15px;
   padding-bottom: 30px;
   padding-top: 30px;
   margin-bottom: 30px;    
@@ -338,16 +357,16 @@ section {
 
 
 .more-popular-div p {
-    border-top: 0.5px solid black;
+    border-top: 0.5px solid rgb(226, 226, 226);
     padding: 15px 0;
 }
 
 .most-popular-side-bar {
   border-top: 0.5px solid black;
   width: 400px;
-  padding: 25px 0 0 50px;
-  margin: 0 50px;
-  margin-bottom: 250px;
+  padding: 25px 0 0 0;
+  margin-left:  25px;
+  margin-bottom: 237px;
 }
 
 .most-popular-side-bar h4 {
@@ -361,9 +380,10 @@ section {
 /* FOOTER */
 
 footer{
-   width: 60%;
-   border-top: 3px solid gray;
+   width: 70%;
+   border-top: 4px double gray;
    margin: 50px auto;
+
 }
 
 .footer-head {
@@ -430,7 +450,7 @@ footer{
 
 .footer-bottom {
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 70px;
   border-top: 1px solid grey;
   margin: 20px 0;
 }
