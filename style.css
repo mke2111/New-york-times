@@ -426,12 +426,6 @@ footer {
   color: black;
 }
 
-.subscribe-div div a {
-  font-size: 14px;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .subscribe-div div i {
   padding-right: 5px;
 }
@@ -449,6 +443,12 @@ footer {
   color: grey;
 }
 
+.subscribe-div div a {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* HOVER EFFECTS */
 
 .external-links:hover {
@@ -459,11 +459,18 @@ nav ul:hover,
 .logo:hover,
 .blog-post-foot button:hover,
 .header-buttons button:hover,
-more-article-single:hover {
+.more-article-single:hover {
   cursor: pointer;
 }
 
-.third-item-nav:hover {
+.blog-post-head i:hover,
+.blog-post-foot-icons i:hover {
+  color: #8b888b;
+  cursor: pointer;
+}
+
+.third-item-nav:hover,
+.footer-bottom a:hover {
   text-decoration: underline;
 }
 
@@ -472,19 +479,10 @@ article h4:hover {
   cursor: pointer;
 }
 
-.blog-post-head i:hover {
-  color: #8b888b;
-  cursor: pointer;
-}
 
 .blog-post-bottom span:hover {
   text-decoration: none;
   cursor: pointer;
-}
-
-.blog-post-foot-icons i:hover {
-  cursor: pointer;
-  color: #8b888b;
 }
 
 .more-article-single h4:hover {
@@ -503,8 +501,4 @@ article h4:hover {
 .footer-list a:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.footer-bottom a:hover {
-  text-decoration: underline;
 }
