@@ -6,12 +6,12 @@
 
 /* GLOBAL SETTINGS */
 
-.flex-horizontal {
+.flex-horizontal,
+.flex-vertical {
   display: flex;
 }
 
 .flex-vertical {
-  display: flex;
   flex-direction: column;
 }
 
@@ -25,6 +25,11 @@ main {
 
 .font-small {
   font-size: 12px;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+  color: #333;
 }
 
 .photo-credits {
@@ -78,6 +83,7 @@ ul li {
 
 .third-item-nav {
   font-weight: bold;
+  font-size: 18px;
 }
 
 /* Post-image */
@@ -107,7 +113,7 @@ figcaption {
 article {
   width: 700px;
   align-self: center;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 article h4 {
@@ -282,7 +288,7 @@ aside h4 {
 }
 
 .bottom-row {
-  bottom: 0;
+  top: 460px;
 }
 
 #title-description {

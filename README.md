@@ -57,4 +57,4 @@ To gain access to the New York Times Article clone page on any computer, follow 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/mke2111/New-york-times/issues).
