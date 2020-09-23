@@ -420,11 +420,13 @@ footer {
   font-weight: bold;
 }
 
-.footer-list p {
+.footer-list a {
   padding-top: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-.subscribe-div div p {
+.subscribe-div div a {
   font-size: 14px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -453,11 +455,11 @@ footer {
   text-decoration: none;
 }
 
-nav ul:hover {
-  cursor: pointer;
-}
-
-.logo:hover {
+nav ul:hover,
+.logo:hover,
+.blog-post-foot button:hover,
+.header-buttons button:hover,
+more-article-single:hover {
   cursor: pointer;
 }
 
@@ -485,18 +487,6 @@ article h4:hover {
   color: #8b888b;
 }
 
-.blog-post-foot button:hover {
-  cursor: pointer;
-}
-
-.header-buttons button:hover {
-  cursor: pointer;
-}
-
-.more-article-single:hover {
-  cursor: pointer;
-}
-
 .more-article-single h4:hover {
   color: #8b888b;
 }
@@ -510,7 +500,7 @@ article h4:hover {
   cursor: auto;
 }
 
-.footer-list p:hover {
+.footer-list a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
