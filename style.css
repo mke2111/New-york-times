@@ -40,9 +40,7 @@ main {
   color: #327aba;
 }
 
-.external-links:hover {
-  text-decoration: none;
-}
+
 
 .blog-buttons {
   background-color: #567b95;
@@ -66,10 +64,6 @@ nav ul {
   align-items: center;
 }
 
-nav ul:hover {
-  cursor: pointer;
-}
-
 ul li {
   padding-right: 20px;
 }
@@ -80,22 +74,12 @@ ul li {
   margin: 10px 0;
 }
 
-.logo:hover {
-  cursor: pointer;
-}
-
 .header-buttons button {
   padding: 10px 10px;
 }
 
-
-
 .third-item-nav {
   font-weight: bold;
-}
-
-.third-item-nav:hover {
-  text-decoration: underline;
 }
 
 /* Post-image */
@@ -132,11 +116,6 @@ article h4 {
   margin-bottom: 25px;
 }
 
-article h4:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .blog-post-head {
   justify-content: space-between;
   align-items: center;
@@ -150,11 +129,6 @@ article h4:hover {
 .blog-post-head i {
   padding-left: 10px;
   font-size: 25px;
-}
-
-.blog-post-head i:hover {
-  color: #8b888b;
-  cursor: pointer;
 }
 
 .blog-text {
@@ -211,15 +185,6 @@ article h3 {
   display: inline;
 }
 
-.blog-post-bottom span {
-  text-decoration: underline;
-}
-
-.blog-post-bottom span:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
 .blog-post-foot {
   margin: 20px 0;
   justify-content: space-between;
@@ -234,24 +199,10 @@ article h3 {
 .blog-post-foot-icons {
   float: right;
 }
-.blog-post-foot-icons i:hover {
-  cursor: pointer;
-  color: #8b888b;
-}
-
-
 
 .blog-post-foot button {
   padding: 10px 100px;
   float: left;
-}
-
-.blog-post-foot button:hover {
-  cursor: pointer;
-}
-
-.header-buttons button:hover {
-  cursor: pointer;
 }
 
 /* Editor's pick */
@@ -387,14 +338,6 @@ section {
   padding-bottom: 10px;
 }
 
-.more-article-single:hover {
-  cursor: pointer;
-}
-
-.more-article-single h4:hover {
-  color: #8b888b;
-}
-
 .more-articles-grid-bottom {
   width: 880px;
   display: grid;
@@ -417,11 +360,6 @@ section {
 .more-popular-div p {
   border-top: 0.5px solid rgb(226, 226, 226);
   padding: 15px 0;
-}
-
-.more-popular-div p:hover {
-  color: #8b888b;
-  cursor: pointer;
 }
 
 .most-popular-side-bar {
@@ -448,7 +386,7 @@ footer {
   align-items: center;
 }
 
-.footer-head img {
+.footer-head-image {
   width: 200px;
   height: auto;
   margin: 10px 0;
@@ -480,17 +418,8 @@ footer {
   font-weight: bold;
 }
 
-.footer-list h4:hover {
-  cursor: auto;
-}
-
 .footer-list p {
   padding-top: 10px;
-}
-
-.footer-list p:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .subscribe-div div p {
@@ -514,6 +443,78 @@ footer {
   font-size: 10px;
   text-decoration: none;
   color: grey;
+}
+
+/* HOVER EFFECTS */
+
+.external-links:hover {
+  text-decoration: none;
+}
+
+nav ul:hover {
+  cursor: pointer;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.third-item-nav:hover {
+  text-decoration: underline;
+}
+
+article h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.blog-post-head i:hover {
+  color: #8b888b;
+  cursor: pointer;
+}
+
+.blog-post-bottom span {
+  text-decoration: underline;
+}
+
+.blog-post-bottom span:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.blog-post-foot-icons i:hover {
+  cursor: pointer;
+  color: #8b888b;
+}
+
+.blog-post-foot button:hover {
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  cursor: pointer;
+}
+
+.more-article-single:hover {
+  cursor: pointer;
+}
+
+.more-article-single h4:hover {
+  color: #8b888b;
+}
+
+.more-popular-div p:hover {
+  color: #8b888b;
+  cursor: pointer;
+}
+
+.footer-list h4:hover {
+  cursor: auto;
+}
+
+.footer-list p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .footer-bottom a:hover {
