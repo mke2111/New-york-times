@@ -16,7 +16,7 @@
 }
 
 .primary-color {
-  color: #333333;
+  color: #333;
 }
 
 main {
@@ -37,7 +37,7 @@ main {
 }
 
 .external-links {
-  color: #327aba
+  color: #327aba;
 }
 
 .external-links:hover {
@@ -86,7 +86,6 @@ ul li {
 
 .header-buttons button {
   padding: 10px 10px;
-
 }
 
 .header-buttons button:hover {
@@ -190,7 +189,7 @@ article h4:hover {
 
 .fig-telescope {
   margin-left: -100px;
-  margin-top: 40px 0;
+  margin-top: 40px;
 }
 
 .bicep-telescope-image {
@@ -210,7 +209,7 @@ article h3 {
 
 .blog-post-bottom p {
   font-size: 12px;
-   margin: 0;
+  margin: 0;
   display: inline;
 }
 
@@ -229,12 +228,12 @@ article h3 {
   align-items: center;
 }
 
-.blog-post-foot i {
+.blog-post-foot-icons i {
   padding-left: 10px;
   font-size: 25px;
 }
 
-.blog-post-foot i:hover {
+.blog-post-foot-icons i:hover {
   cursor: pointer;
   color: #8b888b;
 }
@@ -276,7 +275,6 @@ aside h4 {
   width: 200px;
   align-self: center;
   padding-left: 10px;
-
 }
 
 .side-editor {
@@ -332,7 +330,6 @@ aside h4 {
 }
 
 #title-description {
-
   width: 1000px;
 }
 
@@ -344,12 +341,10 @@ aside h4 {
 /* MORE ARTICLES SECTION */
 
 section {
-  margin-left: 40px;
   width: 70%;
   padding-top: 30px;
   margin: 0 auto;
   justify-content: center;
-
 }
 
 .more-space-title {
@@ -367,7 +362,6 @@ section {
   grid-template-columns: 280px 280px 280px;
   grid-template-rows: 1fr 1fr;
   grid-gap: 15px;
-
   border-bottom: 0.5px solid black;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -467,7 +461,6 @@ footer {
   width: 100%;
   justify-content: space-between;
 }
-
 
 .subscribe-div {
   border-left: 1px solid gray;
