@@ -48,7 +48,7 @@ To gain access to the New York Times Article clone page on any computer, follow 
 
 👤 **Thales Neves**
 
-- GitHub: [@githubhandle](https://github.com/thneves)
+- GitHub: [@thneves](https://github.com/thneves)
 - LinkedIn: [@thales-neves10](https://www.linkedin.com/in/thales-neves10/)
 - Twitter: [@tsneves11](https://twitter.com/tsneves11)
 

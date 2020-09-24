@@ -6,8 +6,7 @@
 
 /* GLOBAL SETTINGS */
 
-.flex-horizontal,
-.flex-vertical {
+.d-flex {
   display: flex;
 }
 
@@ -15,8 +14,20 @@
   flex-direction: column;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .primary-color {
   color: #333;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.j-content {
+  justify-content: space-between;
 }
 
 main {
@@ -51,7 +62,6 @@ main {
   margin-top: 5px;
   border: 1px solid blue;
   border-radius: 4px;
-  font-weight: bold;
 }
 
 /* HEADER */
@@ -82,7 +92,6 @@ ul li {
 }
 
 .third-item-nav {
-  font-weight: bold;
   font-size: 18px;
 }
 
@@ -100,9 +109,6 @@ ul li {
   color: #121212;
 }
 
-.man-standing {
-  width: 100%;
-}
 
 figcaption {
   width: 720px;
@@ -121,7 +127,6 @@ article h4 {
 }
 
 .blog-post-head {
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -191,7 +196,6 @@ article h3 {
 
 .blog-post-foot {
   margin: 20px 0;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -217,9 +221,9 @@ article h3 {
 
 aside {
   position: absolute;
-  width: 250px;
-  right: 70px;
-  margin-right: 90px;
+  width: 200px;
+  right: 30px;
+  margin-right: 40px;
 }
 
 aside h4 {
@@ -234,7 +238,7 @@ aside h4 {
 
 .side-editor p {
   font-size: 15px;
-  width: 200px;
+  width: 130px;
   align-self: center;
   padding-left: 10px;
 }
@@ -252,20 +256,19 @@ aside h4 {
   margin-top: 100px;
 }
 
-.info-graphic img {
-  width: 100%;
-}
-
 .info-graphic p {
   position: absolute;
   width: 220px;
-  font-family: monospace;
+  font-family: serif;
   text-align: left;
 }
 
 .info-graphic p span {
-  font-weight: bold;
   color: black;
+}
+
+.title-info-graphic h3 {
+  font-size: 20px;
 }
 
 .top-row {
@@ -303,7 +306,7 @@ aside h4 {
 /* MORE ARTICLES SECTION */
 
 section {
-  width: 70%;
+  width: 80%;
   padding-top: 30px;
   margin: 0 auto;
   justify-content: center;
@@ -319,9 +322,9 @@ section {
 }
 
 .more-articles-grid {
-  width: 880px;
+  width: 800px;
   display: grid;
-  grid-template-columns: 280px 280px 280px;
+  grid-template-columns: 250px 250px 250px;
   grid-template-rows: 1fr 1fr;
   grid-gap: 15px;
   border-bottom: 0.5px solid black;
@@ -331,25 +334,24 @@ section {
 }
 
 .more-article-single {
-  width: 280px;
+  width: 250px;
 }
 
 .more-article-single figure img {
-  width: 100%;
   height: 150px;
 }
 
 .more-article-single figure figcaption {
   text-align: right;
-  width: 280px;
+  width: 250px;
   font-size: 10px;
   padding-bottom: 10px;
 }
 
 .more-articles-grid-bottom {
-  width: 880px;
+  width: 800px;
   display: grid;
-  grid-template-columns: 280px 280px 280px;
+  grid-template-columns: 250px 250px 250px;
   grid-template-rows: 1fr;
   grid-gap: 15px;
   padding-bottom: 30px;
@@ -390,7 +392,6 @@ footer {
 }
 
 .footer-head {
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -406,11 +407,6 @@ footer {
   color: #5ba4da;
 }
 
-.footer-list {
-  width: 100%;
-  justify-content: space-between;
-}
-
 .subscribe-div {
   border-left: 1px solid gray;
   padding-left: 15px;
@@ -423,7 +419,6 @@ footer {
 
 .footer-list h4 {
   margin: 10px 0;
-  font-weight: bold;
 }
 
 .footer-list a {
@@ -437,7 +432,6 @@ footer {
 }
 
 .footer-bottom {
-  justify-content: space-between;
   padding: 20px 70px;
   border-top: 1px solid grey;
   margin: 20px 0;
@@ -451,59 +445,39 @@ footer {
 
 .subscribe-div div a {
   font-size: 14px;
-  font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.static {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid black;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+  padding-left: 200px;
 }
 
 /* HOVER EFFECTS */
 
-.external-links:hover {
+.txt-decoration:hover {
   text-decoration: none;
 }
 
-nav ul:hover,
-.logo:hover,
-.blog-post-foot button:hover,
-.header-buttons button:hover,
-.more-article-single:hover {
-  cursor: pointer;
-}
-
-.blog-post-head i:hover,
-.blog-post-foot-icons i:hover {
-  color: #8b888b;
-  cursor: pointer;
-}
-
-.third-item-nav:hover,
-.footer-bottom a:hover {
+.txt-underline:hover {
   text-decoration: underline;
 }
 
-article h4:hover {
-  text-decoration: underline;
+.pointer:hover {
   cursor: pointer;
 }
 
-.blog-post-bottom span:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.more-article-single h4:hover {
+.txt-color:hover {
   color: #8b888b;
-}
-
-.more-popular-div p:hover {
-  color: #8b888b;
-  cursor: pointer;
 }
 
 .footer-list h4:hover {
   cursor: auto;
-}
-
-.footer-list a:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
